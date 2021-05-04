@@ -325,7 +325,6 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
@@ -340,19 +339,8 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>AutorabitExtId__c</fullName>
-        <caseSensitive>false</caseSensitive>
-        <description>External Id created by AutoRABIT</description>
-        <externalId>true</externalId>
-        <label>AutorabitExtId__c</label>
-        <length>18</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>true</unique>
-    </fields>
-    <fields>
         <fullName>Birthdate</fullName>
+        <complianceGroup>HIPAA</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -373,6 +361,7 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
+        <complianceGroup>GDPR</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
@@ -476,12 +465,23 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <complianceGroup>PII</complianceGroup>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
         <fullName>ReportsToId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Secret_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Secret Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Title</fullName>
@@ -501,15 +501,6 @@
             <value>THIS_MONTH</value>
         </filters>
         <label>Birthdays This Month</label>
-    </listViews>
-    <listViews>
-        <fullName>BulkMessageContacts</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.PHONE3</columns>
-        <columns>CONTACT.LAST_ACTIVITY</columns>
-        <filterScope>Everything</filterScope>
-        <label>Bulk_SMS_Contacts</label>
     </listViews>
     <listViews>
         <fullName>MyContacts</fullName>
