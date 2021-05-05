@@ -1,7 +1,6 @@
 @istest
 global class AnimalLocatorMock implements HttpCalloutMock{
 //implement interface method
- //Added Webhook 4 Test 
  global HttpResponse respond(HTTPRequest http){
  //CReate fakeresponse
  HttpResponse response=new HttpResponse();

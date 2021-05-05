@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlowSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesFormulaEnforceDataAccess>true</doesFormulaEnforceDataAccess>
-    <doesFormulaGenerateHtmlOutput>true</doesFormulaGenerateHtmlOutput>
+    <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
     <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
@@ -11,7 +11,7 @@
     <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
-    <enableLightningRuntimeEnabled>true</enableLightningRuntimeEnabled>
+    <enableLightningRuntimeEnabled>false</enableLightningRuntimeEnabled>
     <isAccessToInvokedApexRequired>true</isAccessToInvokedApexRequired>
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
