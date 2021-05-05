@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ForecastingSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultToPersonalCurrency>false</defaultToPersonalCurrency>
-    <enableForecasts>false</enableForecasts>
+    <enableForecasts>true</enableForecasts>
     <forecastingCategoryMappings>
         <forecastingItemCategoryApiName>commitonly</forecastingItemCategoryApiName>
         <weightedSourceCategories>
@@ -90,7 +90,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -193,6 +193,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -229,27 +233,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -277,6 +365,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -286,12 +375,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -309,7 +419,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -412,6 +522,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -448,27 +562,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -496,6 +694,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -505,12 +704,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -528,7 +748,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -540,7 +760,7 @@
         <isAmount>true</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>false</isQuantity>
-        <masterLabel>Product Families</masterLabel>
+        <masterLabel>Equipment Families</masterLabel>
         <name>OpportunityLineItemRevenue</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
@@ -635,6 +855,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -671,27 +895,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -720,6 +1028,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -729,12 +1038,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -752,7 +1082,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -764,7 +1094,7 @@
         <isAmount>false</isAmount>
         <isAvailable>true</isAvailable>
         <isQuantity>true</isQuantity>
-        <masterLabel>Product Families</masterLabel>
+        <masterLabel>Equipment Families</masterLabel>
         <name>OpportunityLineItemQuantity</name>
         <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.NAME</field>
@@ -855,6 +1185,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -891,27 +1225,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -939,6 +1357,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -948,12 +1367,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -971,7 +1411,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -1078,6 +1518,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1114,27 +1558,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1163,6 +1691,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1172,12 +1701,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1195,7 +1745,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -1298,6 +1848,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1334,27 +1888,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1382,6 +2020,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1391,12 +2030,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1414,7 +2074,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -1521,6 +2181,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1557,27 +2221,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1606,6 +2354,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1615,12 +2364,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1638,7 +2408,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -1741,6 +2511,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -1777,27 +2551,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -1825,6 +2683,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -1834,12 +2693,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -1857,7 +2737,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -1964,6 +2844,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2000,27 +2884,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2049,6 +3017,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2058,12 +3027,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2081,7 +3071,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -2184,6 +3174,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2220,27 +3214,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2268,6 +3346,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2277,12 +3356,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2300,7 +3400,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -2407,6 +3507,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2443,27 +3547,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2492,6 +3680,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2501,12 +3690,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>
@@ -2524,7 +3734,7 @@
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
         <forecastRangeSettings>
             <beginning>0</beginning>
-            <displaying>6</displaying>
+            <displaying>15</displaying>
             <periodType>Month</periodType>
         </forecastRangeSettings>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
@@ -2627,6 +3837,10 @@
             <label>Created By Alias</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>SYNCEDQUOTE.NAME</field>
+            <label>Synced Quote</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.CLOSED</field>
             <label>Closed</label>
         </opportunityListFieldsLabelMappings>
@@ -2663,27 +3877,111 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w00000AOhMq</field>
-            <label>AutorabitExtId__c</label>
+            <field>00Nf400000UfUba</field>
+            <label>ABC</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRac</field>
+            <field>00Nf400000UFDQo</field>
+            <label>Country</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqZ</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRad</field>
+            <field>00Nf400000UGGHK</field>
+            <label>Current Owner</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqa</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRae</field>
+            <field>00Nf400000Nt61q</field>
+            <label>Discounted Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000Nt61p</field>
+            <label>Discount Percentage</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTXh</field>
+            <label>Dummy Total Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBM</field>
+            <label>Expected Percentage 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBR</field>
+            <label>Expected Percentage 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBW</field>
+            <label>Expected Percentage 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UGEBt</field>
+            <label>Industry</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqb</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRaf</field>
+            <field>00Nf400000UeTBg</field>
+            <label>MileStones Revenue 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBq</field>
+            <label>MileStones Revenue 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBv</field>
+            <label>MileStones Revenue 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTVq</field>
+            <label>Mile Stone Total Revnue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeCoH</field>
+            <label>Month Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqc</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UeTB7</field>
+            <label>Payment Date 1</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBC</field>
+            <label>Payment Date 2</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTBH</field>
+            <label>Payment Date 3</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UFuMZ</field>
+            <label>Project Code</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC0</field>
+            <label>Revenue Collected</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTC5</field>
+            <label>Revenue Collected Progess</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf400000UeTj4</field>
+            <label>Total Milestone Revenue</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00Nf4000006fGqd</field>
             <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
@@ -2711,6 +4009,7 @@
             <field>OPPORTUNITY.TYPE</field>
             <field>UPDATEDBY_USER.ALIAS</field>
             <field>CREATEDBY_USER.ALIAS</field>
+            <field>SYNCEDQUOTE.NAME</field>
             <field>OPPORTUNITY.CLOSED</field>
             <field>OPPORTUNITY.WON</field>
             <field>ACCOUNT.SITE</field>
@@ -2720,12 +4019,33 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N2w00000AOhMq</field>
-            <field>00N2w000007bRac</field>
-            <field>00N2w000007bRad</field>
-            <field>00N2w000007bRae</field>
-            <field>00N2w000007bRaf</field>
-            <field>00N2w000007bRag</field>
+            <field>00Nf400000UfUba</field>
+            <field>00Nf400000UFDQo</field>
+            <field>00Nf4000006fGqZ</field>
+            <field>00Nf400000UGGHK</field>
+            <field>00Nf4000006fGqa</field>
+            <field>00Nf400000Nt61q</field>
+            <field>00Nf400000Nt61p</field>
+            <field>00Nf400000UeTXh</field>
+            <field>00Nf400000UeTBM</field>
+            <field>00Nf400000UeTBR</field>
+            <field>00Nf400000UeTBW</field>
+            <field>00Nf400000UGEBt</field>
+            <field>00Nf4000006fGqb</field>
+            <field>00Nf400000UeTBg</field>
+            <field>00Nf400000UeTBq</field>
+            <field>00Nf400000UeTBv</field>
+            <field>00Nf400000UeTVq</field>
+            <field>00Nf400000UeCoH</field>
+            <field>00Nf4000006fGqc</field>
+            <field>00Nf400000UeTB7</field>
+            <field>00Nf400000UeTBC</field>
+            <field>00Nf400000UeTBH</field>
+            <field>00Nf400000UFuMZ</field>
+            <field>00Nf400000UeTC0</field>
+            <field>00Nf400000UeTC5</field>
+            <field>00Nf400000UeTj4</field>
+            <field>00Nf4000006fGqd</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
             <showQuotas>false</showQuotas>

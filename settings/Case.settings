@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>kishoreravi44@yahoo.co.in</defaultCaseOwner>
+    <defaultCaseOwner>rajkumarakshya@rediffmail.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>kishoreravi44@yahoo.co.in</defaultCaseUser>
+    <defaultCaseUser>rajkumarakshya@rediffmail.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
