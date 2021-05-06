@@ -2507,6 +2507,11 @@
         <name>TopicsForObjects</name>
     </types>
     <types>
+        <members>trailheadapp__User_Badge__c.trailheadapp__User_Is_Required</members>
+        <members>trailheadapp__User_Badge__c.trailheadapp__Validate_Status</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
