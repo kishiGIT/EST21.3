@@ -7,7 +7,6 @@ HttpRequest request=new HttpRequest();
   system.debug('--id'+id);
 request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals/'+id);
 request.setMethod('GET');
-  //Testing AR External Commit
 HttpResponse response=http.send(request);
 if(response.getStatusCode()==200){
  map<string,object> results=(map<string,object>)JSON.deserializeUntyped(response.getBody());
@@ -15,7 +14,8 @@ if(response.getStatusCode()==200){
   map<string,object> animals=( map<string,object>)results.get('animal');
   strResp = string.valueof(animals.get('name'));
    system.debug('--strResp'+strResp);
-  }
+//Test AR Ext Commit PR
+}
 return strResp ;
 }
 }
