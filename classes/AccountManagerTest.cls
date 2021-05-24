@@ -6,6 +6,7 @@ private class AccountManagerTest {
         RestRequest request = new RestRequest();
         request.requestUri = 'https://na1.salesforce.com/services/apexrest/Accounts/'+ recordId +'/contacts' ;
         request.httpMethod = 'GET';
+        //Test VS for AR
         RestContext.request = request;
         // Call the method to test
         Account thisAccount = AccountManager.getAccount();
