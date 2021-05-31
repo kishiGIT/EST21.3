@@ -3,7 +3,7 @@ public class AnimalLocatorTest{
 @istest
 static void testGetResponse(){
 //set mock callout class
-  //Webhook test
+  //Webhook test IDE Test
   //webhook Autosync test
 //AR Test
 test.setmock(HttpCalloutMock.class,new AnimalLocatorMock());
