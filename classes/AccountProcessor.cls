@@ -7,7 +7,6 @@ public class AccountProcessor{
    list<contact> conList=acc.contacts;
   acc.Number_Of_Contacts__c=conList.size();
    acList.add(acc);
-   //Test VS AR
   }
   update acList;
  

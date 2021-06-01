@@ -3,17 +3,17 @@ private class AccountManagerTest {
 
     private static testMethod void getAccountTest1() {
         Id recordId = createTestRecord();
+        // AR Test
+        // set up a test request
         RestRequest request = new RestRequest();
         request.requestUri = 'https://na1.salesforce.com/services/apexrest/Accounts/'+ recordId +'/contacts' ;
         request.httpMethod = 'GET';
-        //Test VS for AR
         RestContext.request = request;
         // Call the method to test
         Account thisAccount = AccountManager.getAccount();
         // Verify results
         System.assert(thisAccount != null);
         System.assertEquals('Test record', thisAccount.Name);
-        //AR ExtCommit 
 
     }
 
