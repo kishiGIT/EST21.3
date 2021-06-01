@@ -3,6 +3,8 @@ public class AnimalLocatorTest{
 @istest
 static void testGetResponse(){
 //set mock callout class
+  //Webhook test IDE Test
+  //webhook Autosync test
 //AR Test
 test.setmock(HttpCalloutMock.class,new AnimalLocatorMock());
 //THis cause fake response to be sent
