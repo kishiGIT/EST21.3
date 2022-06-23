@@ -8,7 +8,8 @@ global class AnimalLocatorMock implements HttpCalloutMock{
  response.setBody('{"animal":{"id":0,"name":"","eats":"","says":""}}');
  response.setStatusCode(200);
  return response;
- 
+ //Test ARVS plugin
+ //
  }
 
 }
